@@ -1,4 +1,4 @@
-# timer_app
+# search_bar
 
 A new Flutter application.
 
