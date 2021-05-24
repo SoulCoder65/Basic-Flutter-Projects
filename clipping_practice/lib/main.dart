@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'components/clip1.dart';
 import 'components/clip2.dart';
+import 'components/clip3.dart';
+import 'components/clip4.dart';
 void main()=>runApp(myApp());
 
 class myApp extends StatelessWidget {
@@ -39,7 +41,17 @@ class _ClipPracticeState extends State<ClipPractice> {
               Navigator.push(context,MaterialPageRoute(builder: (context) {
                 return Clip2();
               },));
-            }, child: Text("Clip2"))
+            }, child: Text("Clip2")),
+            ElevatedButton(onPressed: () {
+              Navigator.push(context,MaterialPageRoute(builder: (context) {
+                return Clip3();
+              },));
+            }, child: Text("Clip3")),
+            ElevatedButton(onPressed: () {
+              Navigator.push(context,MaterialPageRoute(builder: (context) {
+                return Clip4();
+              },));
+            }, child: Text("Clip4"))
           ],
         ),
       ),
